@@ -7,10 +7,10 @@ console.log("app called");
 
 function Element(props) {
   return (
-    <div className='wrapper'>
-      <h1>{props.symbol}</h1>
+    <div className={"element element-"+props.no}>
       <h3>{props.no}</h3>
-      <h3>{props.name}</h3>
+      <h1>{props.symbol}</h1>
+      <h3>{props.atomic}</h3>
     </div>
   );
 }
@@ -20,45 +20,20 @@ function App() {
   return (
     <div className="App">
       
-      <Element symbol="He" name="Helium" no="1"></Element>
-      <Element symbol="O" name="Oxygen" no="2"></Element>
-      <Element symbol="Br" name="Berilium" no="3"></Element>
-      <Element symbol="C" name="Carbon" no="4"></Element>
-      <Element symbol="He" name="Helium" no="5"></Element>
-      <Element symbol="He" name="Helium" no="6"></Element>
-      <Element symbol="He" name="Helium" no="7"></Element>
-      <Element symbol="He" name="Helium" no="8"></Element>
-      <Element symbol="He" name="Helium" no="9"></Element>
-      <Element symbol="O" name="Oxygen" no="10"></Element>
-      <Element symbol="Br" name="Berilium" no="11"></Element>
-      <Element symbol="C" name="Carbon" no="12"></Element>
-      <Element symbol="He" name="Helium" no="13"></Element>
-      <Element symbol="He" name="Helium" no="14"></Element>
-      <Element symbol="He" name="Helium" no="15"></Element>
-      <Element symbol="He" name="Helium" no="16"></Element>
-      <Element symbol="He" name="Helium" no="17"></Element>
-      <Element symbol="He" name="Helium" no="18"></Element>
-    
-<br />
+      <Element symbol="H" name="Hydrogen" no="1" atomic="1.008"></Element>
+      <Element symbol="He" name="Helium" no="2" atomic="4.003"></Element>
+      <Element symbol="Li" name="Lithium" no="3" atomic="6.94"></Element>
+      <Element symbol="Be" name="Berium" no="4" atomic="9.012"></Element>
+      <Element symbol="B" name="" no="5" atomic="10.81"></Element>
+      <Element symbol="B" name="" no="6" atomic="10.81"></Element>
+      <Element symbol="B" name="" no="7" atomic="10.81"></Element>
+      <Element symbol="B" name="" no="8" atomic="10.81"></Element>
+      <Element symbol="B" name="" no="9" atomic="10.81"></Element>
+      <Element symbol="B" name="" no="10" atomic="10.81"></Element>
+      
 
-<Element symbol="He" name="Helium" no="1"></Element>
-      <Element symbol="O" name="Oxygen" no="2"></Element>
-      <Element symbol="Br" name="Berilium" no="3"></Element>
-      <Element symbol="C" name="Carbon" no="4"></Element>
-      <Element symbol="He" name="Helium" no="5"></Element>
-      <Element symbol="He" name="Helium" no="6"></Element>
-      <Element symbol="He" name="Helium" no="7"></Element>
-      <Element symbol="He" name="Helium" no="8"></Element>
-      <Element symbol="He" name="Helium" no="9"></Element>
-      <Element symbol="O" name="Oxygen" no="10"></Element>
-      <Element symbol="Br" name="Berilium" no="11"></Element>
-      <Element symbol="C" name="Carbon" no="12"></Element>
-      <Element symbol="He" name="Helium" no="13"></Element>
-      <Element symbol="He" name="Helium" no="14"></Element>
-      <Element symbol="He" name="Helium" no="15"></Element>
-      <Element symbol="He" name="Helium" no="16"></Element>
-      <Element symbol="He" name="Helium" no="17"></Element>
-      <Element symbol="He" name="Helium" no="18"></Element>
+      
+      
     
     </div>
   );
