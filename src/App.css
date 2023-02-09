@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.wrapper {
+  font-size: 8px;
+  background-color: lightgray;
+  border: #282c34 1px solid;
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.wrapper:hover{
+  background-color: lightblue;
+}
