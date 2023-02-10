@@ -1,5 +1,4 @@
-{
-    "elements": [
+[
         {
             "name": "Hydrogen",
             "appearance": "colorless gas",
@@ -6265,4 +6264,3 @@
             "block": "s"
         }
     ]
-}
