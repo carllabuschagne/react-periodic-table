@@ -1,11 +1,10 @@
 .App {
   display: grid;
-  grid-template-columns: repeat(17, auto) 1fr;
+  grid-template-columns: repeat(17, 1fr);
   width: 90%;
   margin: 0 auto;
   max-width: 100%;
 }
-
 
 .element {
   text-align: center;
@@ -17,15 +16,13 @@
   border-radius: 12px;
   align-items: center;
   justify-content: center;
-  margin: 10px;
+  margin: 2px;
   cursor: pointer;
 }
 
-
 .element-2 {
-  grid-column-start: -1;
+  grid-column-start: 18;
 }
-
 
 .element-3 {
   grid-row-start: 2;
@@ -37,34 +34,70 @@
 }
 
 .element-5 {
-  grid-column-start: 3;
-  grid-column-end: 3;
+  grid-column-start: 13;
   grid-row-start: 2;
 }
 
 .element-6 {
   grid-column-start: 14;
+  grid-row-start: 2;
 }
 
 .element-7 {
   grid-column-start: 15;
-  grid-column-end: 15;
   grid-row-start: 2;
 }
 
 .element-8 {
   grid-column-start: 16;
-  grid-column-end: 16;
   grid-row-start: 2;
 }
 
 .element-9 {
   grid-column-start: 17;
-  grid-column-end: 17;
   grid-row-start: 2;
 }
 
 .element-10 {
-  grid-column-start: -1;
+  grid-column-start: 18;
   grid-row-start: 2;
+}
+
+.element-11 {
+  grid-row-start: 3;
+}
+
+.element-12 {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.element-13 {
+  grid-column-start: 13;
+  grid-row-start: 3;
+}
+
+.element-14 {
+  grid-column-start: 14;
+  grid-row-start: 3;
+}
+
+.element-15 {
+  grid-column-start: 15;
+  grid-row-start: 3;
+}
+
+.element-16 {
+  grid-column-start: 16;
+  grid-row-start: 3;
+}
+
+.element-17 {
+  grid-column-start: 17;
+  grid-row-start: 3;
+}
+
+.element-18 {
+  grid-column-start: 18;
+  grid-row-start: 3;
 }

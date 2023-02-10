@@ -3,7 +3,7 @@ import './App.css';
 
 
 console.log("app called");
- 
+
 
 function Element(props) {
   return (
@@ -30,9 +30,14 @@ function App() {
       <Element symbol="B" name="" no="8" atomic="10.81"></Element>
       <Element symbol="B" name="" no="9" atomic="10.81"></Element>
       <Element symbol="B" name="" no="10" atomic="10.81"></Element>
-      
-
-      
+      <Element symbol="B" name="" no="11" atomic="10.81"></Element>
+      <Element symbol="B" name="" no="12" atomic="10.81"></Element>
+      <Element symbol="B" name="" no="13" atomic="10.81"></Element>
+      <Element symbol="B" name="" no="14" atomic="10.81"></Element>
+      <Element symbol="B" name="" no="15" atomic="10.81"></Element>
+      <Element symbol="B" name="" no="16" atomic="10.81"></Element>
+      <Element symbol="B" name="" no="17" atomic="10.81"></Element>
+      <Element symbol="B" name="" no="18" atomic="10.81"></Element>
       
     
     </div>
