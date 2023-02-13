@@ -20,6 +20,46 @@
   cursor: pointer;
 }
 
+.alkali-metal {
+  background-color: yellow;
+}
+
+.alkali-earth-metal {
+  background-color: tan;
+}
+
+.lanthanide {
+  background-color: plum;
+}
+
+.actinide {
+  background-color: orangered;
+}
+
+.transition-metal {
+  background-color: green;
+}
+
+.post-transition-metal {
+  background-color: grey;
+}
+
+.metalloid {
+  background-color: lightcoral;
+}
+
+.diatomic-nonmetal {
+  background-color: blue;
+}
+
+.polyatomic-nonmetal {
+  background-color: navy;
+}
+
+.noble-gas {
+  background-color: orange;
+}
+
 /* First Row ******************************************************************************************************** */
 
 .element-2 {

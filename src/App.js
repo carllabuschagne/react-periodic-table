@@ -10,9 +10,43 @@ const Styles = {
   },
 };
 
+const toggleStrikethrough = (category) => {
+  switch (category) {
+    case "alkali metal":
+      return "alkali-metal";
+    case "alkaline earth metal":
+      return "alkali-earth-metal";
+    case "lanthanide":
+      return "lanthanide";
+    case "actinide":
+      return "actinide";
+    case "transition metal":
+      return "transition-metal";
+    case "post-transition metal":
+      return "post-transition-metal";
+    case "metalloid":
+      return "metalloid";
+    case "diatomic nonmetal":
+      return "diatomic-nonmetal";
+    case "polyatomic nonmetal":
+      return "polyatomic-nonmetal";
+    case "noble gas":
+      return "noble-gas";
+    default:
+      return "foo";
+  }
+};
+
 function Element(props) {
-  return data.map((data) => (    
-    <div className={"element element-" + data.number}>
+  return data.map((data) => (
+    <div
+      className={
+        "element element-" +
+        data.number +
+        " " +
+        toggleStrikethrough(data.category)
+      }
+    >
       <h2 style={Styles.item}>{data.number}</h2>
       <h1 style={Styles.item}>{data.symbol}</h1>
       <h3 style={Styles.item}>{data.name}</h3>
