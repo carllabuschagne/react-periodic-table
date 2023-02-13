@@ -11,7 +11,7 @@ const Styles = {
 };
 
 function Element(props) {
-  return data.map((data) => (
+  return data.map((data) => (    
     <div className={"element element-" + data.number}>
       <h2 style={Styles.item}>{data.number}</h2>
       <h1 style={Styles.item}>{data.symbol}</h1>
