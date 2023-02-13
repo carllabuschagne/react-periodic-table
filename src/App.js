@@ -10,7 +10,7 @@ const Styles = {
   },
 };
 
-const toggleStrikethrough = (category) => {
+const toggleCategoryClass = (category) => {
   switch (category) {
     case "alkali metal":
       return "alkali-metal";
@@ -44,7 +44,7 @@ function Element(props) {
         "element element-" +
         data.number +
         " " +
-        toggleStrikethrough(data.category)
+        toggleCategoryClass(data.category)
       }
     >
       <h2 style={Styles.item}>{data.number}</h2>
@@ -55,9 +55,24 @@ function Element(props) {
   ));
 }
 
+function Legend(props) {
+  return (
+    <div className="legend">
+      <div className="legend-item">
+        <span className="legend-item-color alkali-metal">#</span>Alkali Metal
+      </div>
+      <div className="legend-item">
+        <span className="legend-item-color alkali-earth-metal">#</span>Alkali Earth
+        Metal
+      </div>
+    </div>
+  );
+}
+
 function App() {
   return (
     <div className="App">
+      <Legend />
       <Element />
     </div>
   );

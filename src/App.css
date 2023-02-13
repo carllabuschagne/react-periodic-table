@@ -60,6 +60,29 @@
   background-color: orange;
 }
 
+.legend {
+  grid-column-start: 5;
+  grid-row-start: 1;  
+  grid-column-end: 11;
+  grid-row-end: 3;
+  background-color: lightsteelblue;
+  border: #282c34 1px solid;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.legend-item {
+  height: 40px;  
+}
+
+.legend-item-color {
+  background-color: lightgray;
+  border: #282c34 1px solid;
+  width: 20px;
+  height: 10px;
+  border-radius: 12px;  
+}
+
 /* First Row ******************************************************************************************************** */
 
 .element-2 {
