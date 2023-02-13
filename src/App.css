@@ -20,9 +20,13 @@
   cursor: pointer;
 }
 
+/* First Row ******************************************************************************************************** */
+
 .element-2 {
   grid-column-start: 18;
 }
+
+/* Second Row ******************************************************************************************************** */
 
 .element-3 {
   grid-row-start: 2;
@@ -63,6 +67,8 @@
   grid-row-start: 2;
 }
 
+/* Third Row ******************************************************************************************************** */
+
 .element-11 {
   grid-row-start: 3;
 }
@@ -100,4 +106,45 @@
 .element-18 {
   grid-column-start: 18;
   grid-row-start: 3;
+}
+
+/* Third Row ******************************************************************************************************** */
+
+.element-19 {
+  grid-row-start: 4;
+}
+
+.element-20 {
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+
+.element-21 {
+  grid-column-start: 3;
+  grid-row-start: 4;
+}
+
+.element-22 {
+  grid-column-start: 4;
+  grid-row-start: 4;
+}
+
+.element-23 {
+  grid-column-start: 5;
+  grid-row-start: 4;
+}
+
+.element-24 {
+  grid-column-start: 6;
+  grid-row-start: 4;
+}
+
+.element-25 {
+  grid-column-start: 7;
+  grid-row-start: 4;
+}
+
+.element-26 {
+  grid-column-start: 8;
+  grid-row-start: 4;
 }
