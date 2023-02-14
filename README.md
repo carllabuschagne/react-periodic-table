@@ -9,7 +9,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 <div align="center">
 
   <img src="public/logo192.png" alt="logo" width="200" height="auto" />
-  <h1>Awesome Readme Template</h1>
+  <h1>React JS Periodic Table</h1>
   
   <p>
     An awesome README template for your projects! 
