@@ -62,8 +62,8 @@ function Legend(props) {
         <span className="legend-item-color alkali-metal">#</span>Alkali Metal
       </div>
       <div className="legend-item">
-        <span className="legend-item-color alkali-earth-metal">#</span>Alkali Earth
-        Metal
+        <span className="legend-item-color alkali-earth-metal">#</span>Alkali
+        Earth Metal
       </div>
     </div>
   );
